@@ -4,9 +4,10 @@ import { connect } from 'react-redux'
 
 class Home extends Component {
     render() {
+        console.log(this.props)
         return (
             <div>
-                <h1>Hello Home!</h1>
+                <h1>Hello Home! {this.props.channels[0].name} </h1>
             </div>
         )
     }
@@ -14,7 +15,9 @@ class Home extends Component {
 
 const mapStateToProps = state => {
     console.log('masok')
-    return {}
+    return {
+        channels: state.channels
+    }
 }
 
 export default connect(mapStateToProps)(Home);
