@@ -1,22 +1,21 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
-export class Home extends Component {
+
+class Home extends Component {
     render() {
         return (
             <div>
-                <h1>Body</h1>
+                <h1>Hello Home!</h1>
             </div>
         )
     }
 }
 
-const mapStateToProps = (state) => ({
-
-})
-
-const mapDispatchToProps = {
-
+const mapStateToProps = state => {
+    console.log('masok')
+    return {}
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Home)
+export default connect(mapStateToProps)(Home);
+

@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 
 export class Paket extends Component {
     render() {
+        console.log(this.props)
         return (
             <div>
                 <h1>
@@ -13,9 +14,9 @@ export class Paket extends Component {
     }
 }
 
-const mapStateToProps = (state) => ({
-
-})
+const mapStateToProps = (state) => {
+    return {}
+}
 
 const mapDispatchToProps = {
 

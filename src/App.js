@@ -1,11 +1,8 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { Route, Router, Switch } from 'react-router-dom'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
-import { Home } from './container/Home/index.jsx'
-import { Paket } from './container/Paket'
-import { Signin } from './container/Signin'
+import { AppRouter } from './components/AppRouter'
 
 
 export class App extends Component {
@@ -15,10 +12,7 @@ export class App extends Component {
   }
 
   render() {
-
-    console.log(this.state);
     const isNotAuthPath = this.props.location.pathname !== '/signin' && this.props.location.pathname !== '/login'
-    console.log(isNotAuthPath)
     return (
       <div>
 
@@ -26,17 +20,11 @@ export class App extends Component {
           isNotAuthPath && <Header />
         }
 
-        <React.Fragment >
 
-          <Route path="/" exact component={Home} />
-          <Route path="/paket" component={Paket} />
-          <Route path="/signin" component={Signin} />
+        <AppRouter />
 
-        </React.Fragment >
 
-        {
-          isNotAuthPath && <Footer />
-        }
+        <Footer />
 
 
       </div>
@@ -44,9 +32,11 @@ export class App extends Component {
   }
 }
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = (state) => {
 
-})
+  console.log(state)
+  return {}
+}
 
 const mapDispatchToProps = {
 

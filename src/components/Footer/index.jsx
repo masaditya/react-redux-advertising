@@ -12,9 +12,10 @@ export class Footer extends Component {
     }
 }
 
-const mapStateToProps = (state) => ({
-
-})
+const mapStateToProps = (state) => {
+    console.log(state)
+    return {}
+}
 
 const mapDispatchToProps = {
 

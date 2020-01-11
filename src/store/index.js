@@ -1,16 +1,32 @@
-import {
-    createStore,
-    combineReducers,
-    applyMiddleware
-} from "redux";
-import logger from "redux-logger";
+import { createStore } from 'redux'
 
-// import userReducer from './reducers/userReducer'
+const reducer = (state, action) => {
+    if (action.type === 'GET_CHANNELS') {
+        return {
+            channels: [{
+                id: 1,
+                name: 'angular'
+            }, {
+                id: 2,
+                name: 'laravel'
+            }]
+        }
+    }
+    return state
+}
 
-export default createStore(
-    combineReducers({
-        // userReducer
-    }), {},
-    applyMiddleware(logger)
-);
+const initialState = {
+    channels: []
+}
 
+const store = createStore(
+    reducer,
+    initialState,
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+)
+
+store.dispatch({
+    type: 'GET_CHANNELS'
+})
+
+export default store
