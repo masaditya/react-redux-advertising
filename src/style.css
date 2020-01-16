@@ -260,13 +260,13 @@ p a {
 	background-repeat: no-repeat;
 	background-blend-mode: darken;
 }
-/* 
+
 .bg-landing {
-	background-image: url('../img/bg-landing.png');
+	background-image: url('./assets/img/bg-landing.png');
 	background-position: center center;
 	background-size: 100% 100%;
 	background-attachment: fixed;
-} */
+}
 
 .btn-grad-warning {
 	cursor: pointer;
@@ -278,9 +278,9 @@ p a {
 
 .btn-grad-warning:hover {
 	color: white;
-	font-weight: bold;
-	background: rgb(250, 201, 89);
-	background: linear-gradient(-90deg, rgba(250, 201, 89, 1) 0%, rgba(242, 152, 45, 1) 35%, rgba(242, 152, 45, 1) 100%);
+	/* font-weight: bold; */
+	/* background: rgb(250, 201, 89); */
+	/* background: linear-gradient(-90deg, rgba(250, 201, 89, 1) 0%, rgba(242, 152, 45, 1) 35%, rgba(242, 152, 45, 1) 100%); */
 
 }
 

@@ -1,5 +1,10 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import { HomePage } from './HomePage'
+import { HomeDescription } from './HomeDescription'
+import { HomePackage } from './HomePackage'
+import bgShapes from '../../assets/img/fix-splash.svg'
+import { HomeSlideShow } from './HomeSlideShow'
 
 
 class Home extends Component {
@@ -7,7 +12,16 @@ class Home extends Component {
         console.log(this.props)
         return (
             <div>
-                <h1>Hello Home! {this.props.channels[0].name} </h1>
+                <HomePage />
+
+                <div style={{ backgroundImage: `url(${bgShapes})`, backgroundSize: 'cover', padding: 0, backgroundRepeat: 'no-repeat' }}>
+
+                    <HomeDescription />
+                    <HomePackage />
+
+                </div>
+
+                <HomeSlideShow />
             </div>
         )
     }
