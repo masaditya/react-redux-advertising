@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import { Banner } from '../../components/Banner'
 
 export class Paket extends Component {
     render() {
         console.log(this.props)
         return (
             <div>
-                <h1>
-                    Paket
-                </h1>
+                <Banner />
             </div>
         )
     }

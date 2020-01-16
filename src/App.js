@@ -12,7 +12,7 @@ export class App extends Component {
   }
 
   render() {
-    const isNotAuthPath = this.props.location.pathname !== '/signin' && this.props.location.pathname !== '/login'
+    const isNotAuthPath = this.props.location.pathname !== '/signup' && this.props.location.pathname !== '/login'
     return (
       <div>
 

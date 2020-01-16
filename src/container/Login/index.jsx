@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import { Link } from 'react-router-dom'
 
 export class Login extends Component {
     render() {
@@ -24,18 +25,14 @@ export class Login extends Component {
                             </div>
                             <button type="submit" className="btn-grad-warning w-100 btn-rounded py-2">Sign In</button>
                             <p className="text-right my-3 fz-1"> <a href>Forget my password</a> </p>
-                            <p className="text-center fz-1">By pressing sign in button, I agreed to the applied <a href>term and
-            condition</a> made by PT
-                                                  AJAR Media
-          Digital</p>
-                            <p className="text-center fz-1"> <a id="tosingup" href="#">Sign up</a> here if you are not
-                              registered
-          yet.</p>
-                        </div> </form>
+                            <p className="text-center fz-1">By pressing sign in button, I agreed to the applied
+                            <a href>term and condition</a> made by PT AJAR Media Digital</p>
+                            <p className="text-center fz-1"> <Link to="/signup">Sign up</Link> here if you are not
+                              registered yet.</p>
+                        </div>
+                    </form>
                 </div>
             </div>
-
-
         )
     }
 }
