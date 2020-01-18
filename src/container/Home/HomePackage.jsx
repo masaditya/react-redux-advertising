@@ -13,8 +13,8 @@ export const HomePackage = () => {
                         <p>Select our solutions that fit with your marketing objectives</p>
                     </div>
                     <div className="row w-75 mx-auto p-0 ">
-                        <div className="col-md-4 mt-3">
-                            <div className="py-4 px-5 text-center bg-abbyss round-sm">
+                        <div className="col-md-6 col-lg-4 mt-3">
+                            <div className="py-4 px-3 text-center bg-abbyss round-sm">
                                 <h4 className="font-weight-bold">Package A</h4>
                                 <hr />
                                 <h3> <span className="p-0 mt-0 mb-auto fz-1 ">$</span> 100/month</h3>
@@ -28,8 +28,8 @@ export const HomePackage = () => {
                                 <button className="btn-grad-warning shadow w-100 py-1 font-weight-bold round-sm"> BUY NOW</button>
                             </div>
                         </div>
-                        <div className="col-md-4 mt-3">
-                            <div className="py-4 px-5 text-center bg-abbyss round-sm">
+                        <div className="col-md-6 col-lg-4 mt-3">
+                            <div className="py-4 px-3 text-center bg-abbyss round-sm">
                                 <h4 className="font-weight-bold">Package B</h4>
                                 <hr />
                                 <h3> <span className="p-0 mt-0 mb-auto fz-1 ">$</span> 100/month</h3>
@@ -43,8 +43,8 @@ export const HomePackage = () => {
                                 <button className="btn-grad-warning shadow w-100 py-1 font-weight-bold round-sm"> BUY NOW</button>
                             </div>
                         </div>
-                        <div className="col-md-4 mt-3">
-                            <div className="py-4 px-5 text-center bg-abbyss round-sm">
+                        <div className="col-md-6 col-lg-4 mt-3">
+                            <div className="py-4 px-3 text-center bg-abbyss round-sm">
                                 <h4 className="font-weight-bold">Package C</h4>
                                 <hr />
                                 <h3> <span className="p-0 mt-0 mb-auto fz-1 ">$</span> 100/month</h3>

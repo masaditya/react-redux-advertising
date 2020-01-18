@@ -7,15 +7,15 @@ const FooterComponent = props => {
     return (
         <div>
             <footer className="footer bg-gray text-dark">
+
+
                 <div className="row w-100 py-5 justify-content-center align-self-center">
-                    <div className="col-md-1">
-                    </div>
-                    <div className="col-md-1  px-1 align-self-center">
+                    
+                    <div className="col-md-2 col-lg-1  px-1 align-self-center">
                         <img src={require('../../assets/img/logo1.svg')} alt="logo" width="50%" style={{ minWidth: '150px' }} />
                     </div>
-                    <div className="col-md-1">
-                    </div>
-                    <div className="col-md-3 my-3 px-4 row address  w-100 align-self-center">
+                   
+                    <div className="col-md-6 col-lg-4 my-3 pl-4 row address  w-100 align-self-center">
                         <img height={70} src={require('../../assets/img/image2vector.svg')} alt="pin" />
                         <ul className="pl-3" style={{ listStyle: 'none' }}>
                             <li>Jl. Pelagan Tentara Pelajar</li>
@@ -38,7 +38,8 @@ const FooterComponent = props => {
                             </div>
                         </ul>
                     </div>
-                    <div className="col-md-2 align-self-center">
+
+                    <div className="col-md-4 col-lg-2 align-self-center">
                         <div className="widget fz-1 font-weight-bold clearfix">
                             <ul style={{ listStyle: 'none' }}>
                                 <li><a className="text-decoration-none text-dark" href="#">About Us</a></li>
@@ -50,7 +51,7 @@ const FooterComponent = props => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-md-3 align-self-center px-4">
+                    <div className="col-md-8 col-lg-3 align-self-center px-4">
                         <p className="fz-1">Subscribe to our newsletter</p>
                         <div className="input-group rounded-pill mb-3">
                             <input style={{ borderColor: '#f2982d' }} type="text" className="form-control bg-gray fz-1 pl-3 rounded-left-sm" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="basic-addon2" />

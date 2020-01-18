@@ -24,7 +24,10 @@ export class App extends Component {
         <AppRouter />
 
 
-        <Footer />
+        {
+          isNotAuthPath && <Footer />
+        }
+
 
 
       </div>

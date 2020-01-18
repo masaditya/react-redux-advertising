@@ -7,6 +7,7 @@ import { Login } from '../../container/Login'
 import { Privacy } from '../../container/Privacy'
 import { Faq } from '../../container/Faq'
 import { Contact } from '../../container/Contact'
+import Payment from '../../container/Payment'
 
 export const AppRouter = () => {
     return (
@@ -18,7 +19,7 @@ export const AppRouter = () => {
             <Route path='/privacy' component={Privacy} />
             <Route path='/faq' component={Faq} />
             <Route path='/contact' component={Contact} />
-
+            <Route path='/payment' component={Payment} />
         </div>
     )
 }

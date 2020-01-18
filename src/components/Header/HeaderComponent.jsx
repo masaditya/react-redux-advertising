@@ -16,11 +16,11 @@ const HeaderComponent = props => {
                 </button>
                 <div className="collapse navbar-collapse my-2 float-right w-auto" id="navbarSupportedContent">
                     <div className="w-auto mr-0 ml-auto">
-                        <a className="text-blue text-decoration-none mr-4" href="<?php echo site_url() ?>/Contact">
+                        <Link className="text-blue text-decoration-none mr-4" to="/contact">
                             <i className="fa fa-phone" aria-hidden="true" />
-                            Contact Us</a>
-                        <a className="btn btn-grad-warning btn-rounded px-4 fz-1 mr-3" href="<?php echo site_url() ?>/Login">
-                            Start Now</a>
+                            Contact Us</Link>
+                        <Link className="btn btn-grad-warning btn-rounded px-4 fz-1 mr-3" to='/login'>
+                            Start Now</Link>
                         <a className="text-blue border-left pl-3 text-decoration-none mr-4" href="<?php echo site_url() ?>/Contact">
                             <i className="fa fa-globe" aria-hidden="true" />
                         </a>
