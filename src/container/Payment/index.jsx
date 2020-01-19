@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PaymentSlideshow from './PaymentSlideshow'
 import { PaymentSection } from './PaymentSection'
 import { PaymentMethods } from './PaymentMethods'
-import { CreditCard, GoPay } from './Methods'
+import { CreditCard, GoPay, Transfer, KlikPay, Indomart, Alfamart } from './Methods'
 
 export default class Payment extends Component {
 
@@ -49,7 +49,7 @@ export default class Payment extends Component {
                 element = <CreditCard />
                 break;
             case 'Transfer':
-                element = <CreditCard />
+                element = <Transfer />
                 break;
             case 'GoPay':
                 element = <GoPay />
@@ -58,13 +58,13 @@ export default class Payment extends Component {
                 element = <CreditCard />
                 break;
             case 'KlikPay':
-                element = <CreditCard />
+                element = <KlikPay />
                 break;
             case 'Indomart':
-                element = <CreditCard />
+                element = <Indomart />
                 break;
             case 'Alfamart':
-                element = <CreditCard />
+                element = <Alfamart />
                 break;
             default:
                 element = <div></div>;

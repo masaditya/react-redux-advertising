@@ -1,2 +1,6 @@
 export { CreditCard } from './CreditCard'
 export { GoPay } from './GoPay'
+export { Transfer } from './Transfer'
+export { KlikPay } from './KlikPay'
+export { Indomart } from './Indomart'
+export { Alfamart } from './Alfamart'
