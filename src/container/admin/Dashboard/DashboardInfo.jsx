@@ -97,7 +97,7 @@ export class DashboardInfo extends Component {
                             </select>
                         </div>
                         <div className="col-sm-3 pt-4">
-                            <a className="font-weight-bold fz-1" href>Edit Channel Grouping</a>
+                            <a className="font-weight-bold fz-1" >Edit Channel Grouping</a>
                         </div>
                     </div>
                     <div className="row mt-4">

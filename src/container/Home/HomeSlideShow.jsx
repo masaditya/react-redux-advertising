@@ -5,9 +5,7 @@ export const HomeSlideShow = () => {
         <div style={{ backgroundColor: '#ffff' }}>
             <div id="demo" className="carousel  index slide text-center mx-auto h-25" data-ride="carousel">
                 {/* Indicators */}
-                <div className="carousel-caption">
-                    <a className="btn btn-outline-primary btn-rounded px-4" href>View More</a>
-                </div>
+
                 <ul className="carousel-indicators pt-4">
                     <li data-target="#demo" data-slide-to={0} className="active" />
                     <li data-target="#demo" data-slide-to={1} />
@@ -22,36 +20,36 @@ export const HomeSlideShow = () => {
                             <img src={require('../../assets/img/image-41@3x.jpg')} alt="" />
                         </div>
                         <div className="row m-0 px-0  justify-content-center  w-100">
-                            <img src="<?php echo base_url() ?>/assets/img/group-4387@3x.jpg" alt="" />
-                            <img src="<?php echo base_url() ?>/assets/img/image-42@3x.jpg" alt="" />
-                            <img src="<?php echo base_url() ?>/assets/img/group-4387@3x.jpg" alt="" />
-                            <img src="<?php echo base_url() ?>/assets/img/image-42@3x.jpg" alt="" />
+                            <img src={require('../../assets/img/group-4387@3x.jpg')} alt="" />
+                            <img src={require('../../assets/img/image-42@3x.jpg')} alt="" />
+                            <img src={require('../../assets/img/group-4387@3x.jpg')} alt="" />
+                            <img src={require('../../assets/img/image-42@3x.jpg')} alt="" />
                         </div>
                     </div>
                     <div className="carousel-item ">
                         <div className="row m-0 px-0  justify-content-center w-100">
-                            <img src="<?php echo base_url() ?>/assets/img/image-38@3x.png" alt="" />
-                            <img src="<?php echo base_url() ?>/assets/img/image-39@3x.jpg" alt="" />
-                            <img src="<?php echo base_url() ?>/assets/img/image-41@3x.jpg" alt="" />
+                            <img src={require('../../assets/img/image-38@3x.png')} alt="" />
+                            <img src={require('../../assets/img/image-39@3x.jpg')} alt="" />
+                            <img src={require('../../assets/img/image-41@3x.jpg')} alt="" />
                         </div>
                         <div className="row m-0 px-0  justify-content-center  w-100">
-                            <img src="<?php echo base_url() ?>/assets/img/group-4387@3x.jpg" alt="" />
-                            <img src="<?php echo base_url() ?>/assets/img/image-42@3x.jpg" alt="" />
-                            <img src="<?php echo base_url() ?>/assets/img/group-4387@3x.jpg" alt="" />
-                            <img src="<?php echo base_url() ?>/assets/img/image-42@3x.jpg" alt="" />
+                            <img src={require('../../assets/img/group-4387@3x.jpg')} alt="" />
+                            <img src={require('../../assets/img/image-42@3x.jpg')} alt="" />
+                            <img src={require('../../assets/img/group-4387@3x.jpg')} alt="" />
+                            <img src={require('../../assets/img/image-42@3x.jpg')} alt="" />
                         </div>
                     </div>
                     <div className="carousel-item  ">
                         <div className="row m-0 px-0  justify-content-center w-100">
-                            <img src="<?php echo base_url() ?>/assets/img/image-38@3x.png" alt="" />
-                            <img src="<?php echo base_url() ?>/assets/img/image-39@3x.jpg" alt="" />
-                            <img src="<?php echo base_url() ?>/assets/img/image-41@3x.jpg" alt="" />
+                            <img src={require('../../assets/img/image-38@3x.png')} alt="" />
+                            <img src={require('../../assets/img/image-39@3x.jpg')} alt="" />
+                            <img src={require('../../assets/img/image-41@3x.jpg')} alt="" />
                         </div>
                         <div className="row m-0 px-0  justify-content-center  w-100">
-                            <img src="<?php echo base_url() ?>/assets/img/group-4387@3x.jpg" alt="" />
-                            <img src="<?php echo base_url() ?>/assets/img/image-42@3x.jpg" alt="" />
-                            <img src="<?php echo base_url() ?>/assets/img/group-4387@3x.jpg" alt="" />
-                            <img src="<?php echo base_url() ?>/assets/img/image-42@3x.jpg" alt="" />
+                            <img src={require('../../assets/img/group-4387@3x.jpg')} alt="" />
+                            <img src={require('../../assets/img/image-42@3x.jpg')} alt="" />
+                            <img src={require('../../assets/img/group-4387@3x.jpg')} alt="" />
+                            <img src={require('../../assets/img/image-42@3x.jpg')} alt="" />
                         </div>
                     </div>
                 </div>
@@ -63,6 +61,10 @@ export const HomeSlideShow = () => {
                     <span className="carousel-control-next-icon" />
                 </a>
             </div>
+            <div className="w-100 text-center pb-4">
+                <a className="btn btn-outline-primary btn-rounded mx-auto px-4" href>View More</a>
+            </div>
+
         </div>
 
     )

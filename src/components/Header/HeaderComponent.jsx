@@ -17,7 +17,7 @@ const HeaderComponent = props => {
                 <div className="collapse navbar-collapse my-2 float-right w-auto" id="navbarSupportedContent">
                     <div className="w-auto mr-0 ml-auto">
                         <Link className="text-blue text-decoration-none mr-4" to="/contact">
-                            <i className="fa fa-phone" aria-hidden="true" />
+                            <i className="fa fa-phone mr-2" aria-hidden="true" />
                             Contact Us</Link>
                         <Link className="btn btn-grad-warning btn-rounded px-4 fz-1 mr-3" to='/login'>
                             Start Now</Link>
