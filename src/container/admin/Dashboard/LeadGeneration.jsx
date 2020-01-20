@@ -41,7 +41,7 @@ export const LeadGeneration = () => {
             <div className="w-100 text-center py-5">
                 <button className="btn btn-outline-primary btn-rounded fz-1 px-4">
                     View More
-    </button>
+                </button>
             </div>
         </div>
     )

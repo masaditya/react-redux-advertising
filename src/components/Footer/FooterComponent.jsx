@@ -10,11 +10,11 @@ const FooterComponent = props => {
 
 
                 <div className="row w-100 py-5 justify-content-center align-self-center">
-                    
+
                     <div className="col-md-2 col-lg-1  px-1 align-self-center">
                         <img src={require('../../assets/img/logo1.svg')} alt="logo" width="50%" style={{ minWidth: '150px' }} />
                     </div>
-                   
+
                     <div className="col-md-6 col-lg-4 my-3 pl-4 row address  w-100 align-self-center">
                         <img height={70} src={require('../../assets/img/image2vector.svg')} alt="pin" />
                         <ul className="pl-3" style={{ listStyle: 'none' }}>

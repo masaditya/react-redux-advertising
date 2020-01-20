@@ -23,19 +23,25 @@ export const Awareness = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {/*?php foreach ($post as $ba) { ?*/}
-                    <tr>
-                        {/* <th scope="row">1</th> */}
-                        <td scope="row" className="pl-4">
-                            <a href>{/*?php echo $ba-*/}title ?&gt;</a>
-                        </td>
-                        <td className="text-center">1000</td>
-                        <td className="text-center">10</td>
-                        <td className="text-center">0.01</td>
-                        <td className="text-right">{/*?php echo date('d F Y', strtotime($ba-*/}created_at));  ?&gt;</td>
-                        <td><a href>Find Schedule</a></td>
-                    </tr>
-                    {/*?php } ?*/}
+
+                    {
+                        dummy.map(number => {
+                            return (
+                                <tr key={number}>
+                                    <td scope="row" className="pl-4">
+                                        <a href>{/*?php echo $ba-*/}title ?&gt;</a>
+                                    </td>
+                                    <td className="text-center">1000</td>
+                                    <td className="text-center">10</td>
+                                    <td className="text-center">0.01</td>
+                                    <td className="text-right">data</td>
+                                    <td><a href>Find Schedule</a></td>
+                                </tr>
+                            )
+                        })
+                    }
+
+
                 </tbody>
             </table>
             <div className="w-100 text-center py-5">
@@ -47,3 +53,8 @@ export const Awareness = () => {
 
     )
 }
+
+const dummy =
+    [
+        1, 2, 3, 4, 5
+    ]

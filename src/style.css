@@ -1,12 +1,12 @@
-/* @font-face {
+@font-face {
 	font-family: AvenirNextLTPro;
-	src: url("../fonts/AvenirNextLTPro-Regular_0.otf") format("opentype");
+	src: url("./assets/fonts/AvenirNextLTPro-Regular_0.otf") format("opentype");
 }
 
 @font-face {
 	font-family: AvenirNextLTPro-Bold;
-	src: url("../fonts/AvenirNextLTPro-BoldCn_0.otf") format("opentype");
-} */
+	src: url("./assets/fonts/AvenirNextLTPro-BoldCn_0.otf") format("opentype");
+}
 
 html {
 	scroll-behavior: smooth;
