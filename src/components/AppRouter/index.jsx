@@ -9,6 +9,7 @@ import { Faq } from '../../container/Faq'
 import { Contact } from '../../container/Contact'
 import Payment from '../../container/Payment'
 import { Dashboard } from '../../container/admin/Dashboard'
+import { Profile } from '../../container/admin/Profile'
 
 export const AppRouter = () => {
     return (
@@ -22,6 +23,7 @@ export const AppRouter = () => {
             <Route path='/contact' component={Contact} />
             <Route path='/payment' component={Payment} />
             <Route path='/dashboard' component={Dashboard} />
+            <Route path='/profile' component={Profile} />
         </div>
     )
 }

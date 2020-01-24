@@ -10,6 +10,5 @@ export const Banner = (props) => {
                 <h4 className="mr-5 mt-4">Eager to learn more about DAN or simply want to say hello? Get in touch and we’ll be happy to answer all your questions.</h4>
             </div>
         </div>
-
     )
 }
