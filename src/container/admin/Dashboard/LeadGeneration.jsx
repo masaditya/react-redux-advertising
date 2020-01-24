@@ -23,19 +23,15 @@ export const LeadGeneration = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {/*?php foreach ($post as $lg) { ?*/}
                     <tr>
-                        {/* <th scope="row">1</th> */}
-                        <td scope="row" className="pl-4">
-                            <a >{/*?php echo $lg-*/}title; ?&gt;</a>
-                        </td>
+                        <th scope="row">1</th>
+                        <td className="pl-4">title</td>
                         <td className="text-center">eBook</td>
                         <td className="text-center">10</td>
                         <td className="text-center">0.01</td>
-                        <td className="text-center">{/*?php echo date('d F Y', strtotime($lg-*/}created_at));  ?&gt;</td>
-                        <td><a >Download</a></td>
+                        <td className="text-center">created_at</td>
+                        <td>Download</td>
                     </tr>
-                    {/*?php } ?*/}
                 </tbody>
             </table>
             <div className="w-100 text-center py-5">

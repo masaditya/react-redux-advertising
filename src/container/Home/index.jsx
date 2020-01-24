@@ -28,7 +28,6 @@ class Home extends Component {
 }
 
 const mapStateToProps = state => {
-    console.log('masok')
     return {
         channels: state.channels
     }

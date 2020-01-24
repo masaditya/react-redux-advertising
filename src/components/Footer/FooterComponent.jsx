@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import './footerStyle.css'
 
 
@@ -42,12 +41,12 @@ const FooterComponent = props => {
                     <div className="col-md-4 col-lg-2 align-self-center">
                         <div className="widget fz-1 font-weight-bold clearfix">
                             <ul style={{ listStyle: 'none' }}>
-                                <li><a className="text-decoration-none text-dark" >About Us</a></li>
-                                <li><a className="text-decoration-none text-dark" >AJAR’s Solutions</a></li>
-                                <li><a className="text-decoration-none text-dark" >Terms of Use</a></li>
-                                <li><a className="text-decoration-none text-dark" >Privacy of Policy</a></li>
-                                <li><a className="text-decoration-none text-dark" >Article</a></li>
-                                <li><a className="text-decoration-none text-dark" >Contact Us</a></li>
+                                <li><a href="/" className="text-decoration-none text-dark" >About Us</a></li>
+                                <li><a href="/" className="text-decoration-none text-dark" >AJAR’s Solutions</a></li>
+                                <li><a href="/" className="text-decoration-none text-dark" >Terms of Use</a></li>
+                                <li><a href="/" className="text-decoration-none text-dark" >Privacy of Policy</a></li>
+                                <li><a href="/" className="text-decoration-none text-dark" >Article</a></li>
+                                <li><a href="/" className="text-decoration-none text-dark" >Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -61,19 +60,14 @@ const FooterComponent = props => {
                         </div>
                     </div>
                     <div className="align-self-center  col-md-1">
-                        <a className="btn btn-abbys"> <i className="fa fa-arrow-up" aria-hidden="true" /> </a>
+                        <a href="#nav" className="btn btn-abbys"> <i className="fa fa-arrow-up" aria-hidden="true" /> </a>
                     </div>
                 </div>
-                <div style={{ backgroundColor: '#06558a' }}>
-                    <p className="fz-1 text-white text-center py-3 m-0">AJAR.id 2018 copyright ©</p>
-                </div>{/* end container */}
+
             </footer>
         </div>
     )
 }
 
-FooterComponent.propTypes = {
-
-}
 
 export default FooterComponent

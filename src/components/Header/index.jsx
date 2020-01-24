@@ -6,7 +6,7 @@ import NavigationComponents from './NavigationComponents'
 export class Header extends Component {
     render() {
 
-        let pathName = this.props.location.pathname
+        // let pathName = this.props.location.pathname
 
         return (
             <div>

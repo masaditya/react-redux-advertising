@@ -28,14 +28,12 @@ export const Awareness = () => {
                         dummy.map(number => {
                             return (
                                 <tr key={number}>
-                                    <td scope="row" className="pl-4">
-                                        <a>{/*?php echo $ba-*/}title ?&gt;</a>
-                                    </td>
+                                    <td  className="pl-4"> title </td>
                                     <td className="text-center">1000</td>
                                     <td className="text-center">10</td>
                                     <td className="text-center">0.01</td>
                                     <td className="text-right">data</td>
-                                    <td><a >Find Schedule</a></td>
+                                    <td>Find Schedule</td>
                                 </tr>
                             )
                         })

@@ -54,15 +54,15 @@ export const HomeSlideShow = () => {
                     </div>
                 </div>
                 {/* Left and right controls */}
-                <a className="carousel-control-prev"  data-slide="prev">
+                <a className="carousel-control-prev" href="/" data-slide="prev">
                     <span className="carousel-control-prev-icon" />
                 </a>
-                <a className="carousel-control-next"  data-slide="next">
+                <a className="carousel-control-next" href="/" data-slide="next">
                     <span className="carousel-control-next-icon" />
                 </a>
             </div>
             <div className="w-100 text-center pb-4">
-                <a className="btn btn-outline-primary btn-rounded mx-auto px-4">View More</a>
+                <a href="/" className="btn btn-outline-primary btn-rounded mx-auto px-4">View More</a>
             </div>
 
         </div>

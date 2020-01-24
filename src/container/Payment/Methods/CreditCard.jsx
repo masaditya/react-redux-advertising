@@ -23,7 +23,7 @@ export const CreditCard = () => {
             </li>
             <li className="list-group-item border-left-0 border-right-0 bg-light text-black-50">
                 <i className="fa fa-lock" aria-hidden="true" />
-                <a className="mx-4">Midtrans secured payments</a>
+                <a href="/" className="mx-4">Midtrans secured payments</a>
             </li>
             <li className="list-group-item border-left-0 border-right-0 bg-light text-black-50 py-4">
                 <div className="row">

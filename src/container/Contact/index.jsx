@@ -13,12 +13,12 @@ export const Contact = () => {
                     <h3 className="px-5 mx-5">Want to find out how Ajar.Id can solve problems specific to your
                       business? Let's
                       talk.
-    </h3>
+                    </h3>
                 </div>
                 <div className="container border">
                     <div className="row">
                         <div className="col-md-6 p-5">
-                            <img src={require('../../assets/img/logo1.svg')} className="w-25" />
+                            <img src={require('../../assets/img/logo1.svg')} className="w-25" alt="logo" />
                             <h3 className="my-4">Our Office</h3>
                             <h5>ADDRESS</h5>
                             <p>Jalan Palagan, Pakem Sleman 555288</p>
@@ -43,7 +43,7 @@ export const Contact = () => {
                     </div>
                 </div>
                 <div className="container my-5">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126438.33806403888!2d112.56174189884811!3d-7.978469457595614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd62822063dc2fb%3A0x78879446481a4da2!2sMalang%2C+Malang+City%2C+East+Java!5e0!3m2!1sen!2sid!4v1558724903920!5m2!1sen!2sid" width="100%" height={400} frameBorder={0} style={{ border: 0 }} allowFullScreen>
+                    <iframe title="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126438.33806403888!2d112.56174189884811!3d-7.978469457595614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd62822063dc2fb%3A0x78879446481a4da2!2sMalang%2C+Malang+City%2C+East+Java!5e0!3m2!1sen!2sid!4v1558724903920!5m2!1sen!2sid" width="100%" height={400} frameBorder={0} style={{ border: 0 }} allowFullScreen>
                     </iframe>
                 </div>
             </div>
