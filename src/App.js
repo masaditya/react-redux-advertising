@@ -17,7 +17,7 @@ export class App extends Component {
       <div>
 
         {
-          isNotAuthPath && <Header />
+          isNotAuthPath && <Header {...this.props} />
         }
 
 
@@ -25,7 +25,7 @@ export class App extends Component {
 
 
         {
-          isNotAuthPath && <Footer />
+          isNotAuthPath && <Footer {...this.props} />
         }
 
 
@@ -37,7 +37,6 @@ export class App extends Component {
 
 const mapStateToProps = (state) => {
 
-  console.log(state)
   return {}
 }
 

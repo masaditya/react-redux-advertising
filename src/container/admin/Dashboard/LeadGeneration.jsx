@@ -27,13 +27,13 @@ export const LeadGeneration = () => {
                     <tr>
                         {/* <th scope="row">1</th> */}
                         <td scope="row" className="pl-4">
-                            <a href>{/*?php echo $lg-*/}title; ?&gt;</a>
+                            <a >{/*?php echo $lg-*/}title; ?&gt;</a>
                         </td>
                         <td className="text-center">eBook</td>
                         <td className="text-center">10</td>
                         <td className="text-center">0.01</td>
                         <td className="text-center">{/*?php echo date('d F Y', strtotime($lg-*/}created_at));  ?&gt;</td>
-                        <td><a href>Download</a></td>
+                        <td><a >Download</a></td>
                     </tr>
                     {/*?php } ?*/}
                 </tbody>

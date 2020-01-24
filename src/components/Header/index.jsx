@@ -6,10 +6,14 @@ import NavigationComponents from './NavigationComponents'
 export class Header extends Component {
     render() {
 
-        console.log(this.props.location);
+        let pathName = this.props.location.pathname
+
         return (
             <div>
                 <HeaderComponent />
+
+
+
                 <NavigationComponents />
             </div>
         )

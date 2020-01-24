@@ -13,15 +13,15 @@ export const HomeDescription = () => {
                 <div className="row mt-4">
                     <div className="content-landing container w-50 row text-center">
                         <div className="col-sm-4">
-                            <img className="rounded-circle w-75 mb-3" src={igIcon} alt="image" />
+                            <img className="rounded-circle w-75 mb-3" src={igIcon} alt="desc" />
                             <b>Niche Audience</b>
                         </div>
                         <div className="col-sm-4">
-                            <img className="rounded-circle w-75 mb-3 " src={igIcon} alt="image" />
+                            <img className="rounded-circle w-75 mb-3 " src={igIcon} alt="desc" />
                             <b>Quality Traffic</b>
                         </div>
                         <div className="col-sm-4">
-                            <img className="rounded-circle w-75 mb-3" src={igIcon} alt="image" />
+                            <img className="rounded-circle w-75 mb-3" src={igIcon} alt="desc" />
                             <b>Tracking Engine</b>
                         </div>
                         <div className="text-content-landing ml-0 container-fluid my-5 ">

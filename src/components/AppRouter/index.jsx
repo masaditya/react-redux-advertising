@@ -14,6 +14,7 @@ import { Profile } from '../../container/admin/Profile'
 export const AppRouter = () => {
     return (
         <div>
+            
             <Route path="/" exact component={Home} />
             <Route path="/paket" component={Paket} />
             <Route path="/signup" component={Signup} />
@@ -24,6 +25,7 @@ export const AppRouter = () => {
             <Route path='/payment' component={Payment} />
             <Route path='/dashboard' component={Dashboard} />
             <Route path='/profile' component={Profile} />
+            
         </div>
     )
 }

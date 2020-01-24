@@ -8,10 +8,10 @@ export const HomePage = () => {
                     <h1 className="text-white font-weight-bold"> Reach more people with <br />
                         AJAR Ads</h1>
                     <button className="btn-grad-warning px-4 py-2 btn-rounded">
-                        <a className="text-white text-decoration-none" href="#section-2">Get Your Ads on Ajar</a></button>
+                        Get Your Ads on Ajar</button>
                 </div>
             </div>
-            <a href="#section-2" className=" fas fa-angle-down fa-4x text-decoration-none" aria-hidden="true" />
+            <span className=" fas fa-angle-down fa-4x text-decoration-none" aria-hidden="true"></span>
         </div>
     )
 }

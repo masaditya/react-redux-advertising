@@ -74,7 +74,7 @@ export class DashboardInfo extends Component {
                                     />
                                 </div>
                                 <div className="fz-1 align-items-center my-auto">
-                                    <b className="fz-2 "> <a href className="text-gray">+ Add Segment</a> </b>
+                                    <b className="fz-2 "> <a className="text-gray">+ Add Segment</a> </b>
                                 </div>
                             </div>
                         </div>
@@ -296,7 +296,7 @@ export class DashboardInfo extends Component {
                                     />
                                 </div>
                                 <div className="fz-1 align-items-center my-auto">
-                                    <b className="fz-2 "> <a href className="text-gray">+ Add Segment</a> </b>
+                                    <b className="fz-2 "> <a  className="text-gray">+ Add Segment</a> </b>
                                 </div>
                             </div>
                         </div>
@@ -373,7 +373,7 @@ export class DashboardInfo extends Component {
                             </div>
                             <div className="text-right mt-4">
                                 <span className="fz-1 text-black-50">This report was generated on 3/15/20 at 01:00:22 PM</span>
-                                <a className="fz-1 ml-4" href>Refersh Report</a>
+                                <a className="fz-1 ml-4" >Refersh Report</a>
                             </div>
                         </div>
                     </div>

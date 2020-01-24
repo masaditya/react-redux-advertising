@@ -29,13 +29,13 @@ export const Awareness = () => {
                             return (
                                 <tr key={number}>
                                     <td scope="row" className="pl-4">
-                                        <a href>{/*?php echo $ba-*/}title ?&gt;</a>
+                                        <a>{/*?php echo $ba-*/}title ?&gt;</a>
                                     </td>
                                     <td className="text-center">1000</td>
                                     <td className="text-center">10</td>
                                     <td className="text-center">0.01</td>
                                     <td className="text-right">data</td>
-                                    <td><a href>Find Schedule</a></td>
+                                    <td><a >Find Schedule</a></td>
                                 </tr>
                             )
                         })

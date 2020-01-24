@@ -25,27 +25,27 @@ export class Dashboard extends Component {
                     {/* ?php $this-load-&gt;view('ajar_article/_messages'); ?&gt; */}
                     <div className="d-flex w-auto ">
                         <ul className="nav shadow bg-white rounded" role="tablist">
-                            <li className={pathName == '/dashboard' || pathName == '/dashboard/' ? "nav-item active-tab tab" : "nav-item tab "} >
+                            <li className={pathName === '/dashboard' || pathName === '/dashboard/' ? "nav-item active-tab tab" : "nav-item tab "} >
                                 <Link to="/dashboard" id="step1-tab" className="nav-link ">Dashboard</Link>
                             </li>
-                            <li className={pathName == '/dashboard/awareness' || pathName == '/dashboard/awareness/' ? "nav-item active-tab tab" : "nav-item tab "} >
+                            <li className={pathName === '/dashboard/awareness' || pathName === '/dashboard/awareness/' ? "nav-item active-tab tab" : "nav-item tab "} >
 
                                 {/* <li className="nav-item tab   border-right "> */}
                                 <Link to="/dashboard/awareness" id="step1-tab" className="nav-link ">Boost Awareness</Link>
 
                             </li>
-                            <li className={pathName == '/dashboard/lead-generation' || pathName == '/dashboard/lead-generation/' ? "nav-item active-tab tab" : "nav-item tab "} >
+                            <li className={pathName === '/dashboard/lead-generation' || pathName === '/dashboard/lead-generation/' ? "nav-item active-tab tab" : "nav-item tab "} >
 
                                 {/* <li className="nav-item tab    "> */}
                                 <Link to="/dashboard/lead-generation" id="step1-tab" className="nav-link ">Lead Generation</Link>
 
                             </li>
-                            <li className={pathName == '/dashboard/billing' || pathName == '/dashboard/billing/' ? "nav-item active-tab tab" : "nav-item tab "} >
+                            <li className={pathName === '/dashboard/billing' || pathName === '/dashboard/billing/' ? "nav-item active-tab tab" : "nav-item tab "} >
 
                                 {/* <li className="nav-item tab   border-left "> */}
                                 <Link to="/dashboard/billing" id="step1-tab" className="nav-link ">Billing</Link>
                             </li>
-                            <li className={pathName == '/dashboard/post' || pathName == '/dashboard/post' ? "nav-item active-tab tab" : "nav-item tab "} >
+                            <li className={pathName === '/dashboard/post' || pathName === '/dashboard/post' ? "nav-item active-tab tab" : "nav-item tab "} >
 
                                 {/* <li className="nav-item tab   border-left "> */}
                                 <Link to="/dashboard/post" id="step1-tab" className="nav-link ">Post</Link>

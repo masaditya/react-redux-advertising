@@ -42,12 +42,12 @@ const FooterComponent = props => {
                     <div className="col-md-4 col-lg-2 align-self-center">
                         <div className="widget fz-1 font-weight-bold clearfix">
                             <ul style={{ listStyle: 'none' }}>
-                                <li><a className="text-decoration-none text-dark" href="#">About Us</a></li>
-                                <li><a className="text-decoration-none text-dark" href="#">AJAR’s Solutions</a></li>
-                                <li><a className="text-decoration-none text-dark" href="#">Terms of Use</a></li>
-                                <li><a className="text-decoration-none text-dark" href="#">Privacy of Policy</a></li>
-                                <li><a className="text-decoration-none text-dark" href="#">Article</a></li>
-                                <li><a className="text-decoration-none text-dark" href="#">Contact Us</a></li>
+                                <li><a className="text-decoration-none text-dark" >About Us</a></li>
+                                <li><a className="text-decoration-none text-dark" >AJAR’s Solutions</a></li>
+                                <li><a className="text-decoration-none text-dark" >Terms of Use</a></li>
+                                <li><a className="text-decoration-none text-dark" >Privacy of Policy</a></li>
+                                <li><a className="text-decoration-none text-dark" >Article</a></li>
+                                <li><a className="text-decoration-none text-dark" >Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ const FooterComponent = props => {
                         </div>
                     </div>
                     <div className="align-self-center  col-md-1">
-                        <a href="#nav" className="btn btn-abbys"> <i className="fa fa-arrow-up" aria-hidden="true" /> </a>
+                        <a className="btn btn-abbys"> <i className="fa fa-arrow-up" aria-hidden="true" /> </a>
                     </div>
                 </div>
                 <div style={{ backgroundColor: '#06558a' }}>

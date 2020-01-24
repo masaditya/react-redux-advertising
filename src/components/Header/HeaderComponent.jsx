@@ -21,7 +21,7 @@ const HeaderComponent = props => {
                             Contact Us</Link>
                         <Link className="btn btn-grad-warning btn-rounded px-4 fz-1 mr-3" to='/login'>
                             Start Now</Link>
-                        <a className="text-blue border-left pl-3 text-decoration-none mr-4" href="<?php echo site_url() ?>/Contact">
+                        <a className="text-blue border-left pl-3 text-decoration-none mr-4">
                             <i className="fa fa-globe" aria-hidden="true" />
                         </a>
 
