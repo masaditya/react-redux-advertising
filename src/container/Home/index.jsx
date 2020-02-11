@@ -9,7 +9,6 @@ import { HomeSlideShow } from './HomeSlideShow'
 
 class Home extends Component {
     render() {
-        console.log(this.props)
         return (
             <div>
                 <HomePage />
@@ -28,6 +27,7 @@ class Home extends Component {
 }
 
 const mapStateToProps = state => {
+    console.log(state)
     return {
         channels: state.channels
     }

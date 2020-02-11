@@ -3,7 +3,7 @@ import { createStore } from 'redux'
 const reducer = (state, action) => {
     if (action.type === 'GET_CHANNELS') {
         return {
-            channels: [{
+            paket: [{
                 id: 1,
                 name: 'angular'
             }, {
@@ -24,9 +24,5 @@ const store = createStore(
     initialState,
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 )
-
-store.dispatch({
-    type: 'GET_CHANNELS'
-})
 
 export default store

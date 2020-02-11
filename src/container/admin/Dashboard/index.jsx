@@ -17,7 +17,7 @@ export class Dashboard extends Component {
     render() {
 
         let pathName = this.props.location.pathname
-        console.log(pathName)
+        // console.log(pathName)
         return (
             <div className="bg-light py-5">
 

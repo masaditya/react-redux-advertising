@@ -1,31 +1,24 @@
-import React, { Component } from 'react'
-import { connect } from 'react-redux'
-import HeaderComponent from './HeaderComponent'
-import NavigationComponents from './NavigationComponents'
+import React, { Component } from "react";
+import { connect } from "react-redux";
+import HeaderComponent from "./HeaderComponent";
+import NavigationComponents from "./NavigationComponents";
 
 export class Header extends Component {
-    render() {
+  render() {
+    let pathName = this.props.location.pathname;
+    let boolPath = pathName.includes("/dashboard");
+    return (
+      <div>
+        <HeaderComponent />
 
-        // let pathName = this.props.location.pathname
-
-        return (
-            <div>
-                <HeaderComponent />
-
-
-
-                <NavigationComponents />
-            </div>
-        )
-    }
+        {!boolPath ? <NavigationComponents /> : ""}
+      </div>
+    );
+  }
 }
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = state => ({});
 
-})
+const mapDispatchToProps = {};
 
-const mapDispatchToProps = {
-
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(Header)
+export default connect(mapStateToProps, mapDispatchToProps)(Header);

@@ -1,47 +1,35 @@
-import React, { Component } from 'react'
-import { connect } from 'react-redux'
-import { Footer } from './components/Footer'
-import { Header } from './components/Header'
-import { AppRouter } from './components/AppRouter'
-
+import React, { Component } from "react";
+import { connect } from "react-redux";
+import { Footer } from "./components/Footer";
+import  Header  from "./components/Header";
+import { AppRouter } from "./components/AppRouter";
 
 export class App extends Component {
-
   state = {
     isLoggedIn: false
-  }
+  };
 
   render() {
-    const isNotAuthPath = this.props.location.pathname !== '/signup' && this.props.location.pathname !== '/login'
+    const isNotAuthPath =
+      this.props.location.pathname !== "/signup" &&
+      this.props.location.pathname !== "/login";
     return (
       <div>
-
-        {
-          isNotAuthPath && <Header {...this.props} />
-        }
-
+        {isNotAuthPath && <Header {...this.props} />}
 
         <AppRouter />
 
-
-        {
-          isNotAuthPath && <Footer {...this.props} />
-        }
-
-
-
+        {isNotAuthPath && <Footer {...this.props} />}
       </div>
-    )
+    );
   }
 }
 
-const mapStateToProps = (state) => {
+const mapStateToProps = state => {
+  // console.log(state)
+  return {};
+};
 
-  return {}
-}
+const mapDispatchToProps = {};
 
-const mapDispatchToProps = {
-
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(App)
+export default connect(mapStateToProps, mapDispatchToProps)(App);
